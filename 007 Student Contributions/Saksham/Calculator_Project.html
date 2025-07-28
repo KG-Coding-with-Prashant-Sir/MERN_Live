@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+   <link rel="stylesheet" href="/CSS/Styling/prac.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="display"></div>
+        <button class="button" id="clear"
+        onclick="
+         text=' ';
+         document.querySelector('.display').innerText=text";>AC</button>
+
+        <button class="button" 
+        onclick="
+         text+='1';
+         document.querySelector('.display').innerText=text";>1</button>
+
+        <button class="button"
+        onclick="
+         text+='2';
+         document.querySelector('.display').innerText=text";>2</button>
+
+        <button class="button"
+        onclick="
+         text+='+';
+         document.querySelector('.display').innerText=text";>+</button>
+
+        <button class="button"
+        onclick="
+         text+='3';
+         document.querySelector('.display').innerText=text";>3</button>
+
+        <button class="button"
+        onclick="
+         text+='4';
+         document.querySelector('.display').innerText=text";>4</button>
+
+        <button class="button"
+        onclick="
+         text+='-';
+         document.querySelector('.display').innerText=text";>-</button>
+
+        <button class="button"
+        onclick="
+         text+='5';
+         document.querySelector('.display').innerText=text";>5</button>
+
+        <button class="button"
+        onclick="
+         text+='6';
+         document.querySelector('.display').innerText=text";>6</button>
+
+        <button class="button"
+        onclick="
+         text+='*';
+         document.querySelector('.display').innerText=text";>*</button>
+
+        <button class="button"
+        onclick="
+         text+='7';
+         document.querySelector('.display').innerText=text";>7</button>
+
+        <button class="button"
+        onclick="
+         text+='8';
+         document.querySelector('.display').innerText=text";>8</button>
+
+        <button class="button"
+        onclick="
+         text+='/';
+         document.querySelector('.display').innerText=text";>/</button>
+
+        <button class="button"
+        onclick="
+         text=eval(text);
+         document.querySelector('.display').innerText=text";>=</button>
+
+        <button class="button"
+        onclick="
+         text+='9';
+         document.querySelector('.display').innerText=text";>9</button>
+
+        <button class="button"
+        onclick="
+         text+='0';
+         document.querySelector('.display').innerText=text";>0</button>
+
+        <button class="button"
+        onclick="
+         text+='.';
+         document.querySelector('.display').innerText=text";>.</button>
+
+         <button class="button" id="clear" onclick="
+         text = text.slice(0, -1);
+         document.querySelector('.display').innerText = text;
+         ">DEL</button>
+
+
+    </div>
+    
+</body>
+
+<script>
+    let text='';
+    document.querySelector('.display').innerText=text;
+</script>
+</html>
