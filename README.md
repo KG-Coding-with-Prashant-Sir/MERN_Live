@@ -1,5 +1,2 @@
-# MERN_Live
-This Repo will have all the code that will be practised as part of the course.
-
-
-testing
+# Contribution
+This file is being created just to show that a public person can make a contribution throung pull request.
