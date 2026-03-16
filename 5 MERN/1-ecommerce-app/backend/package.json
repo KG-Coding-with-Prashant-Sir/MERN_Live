@@ -1,0 +1,15 @@
+{
+  "name": "mern-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend API for MERN eCommerce demo",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
